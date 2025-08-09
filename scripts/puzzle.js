@@ -31,7 +31,7 @@ function startGame() {
 }
 
 function setupCanvasSize() {
-  const size = Math.min(window.innerWidth * 0.9, window.innerHeight * 0.9);
+  const size = Math.min(window.innerWidth * 1.0, window.innerHeight * 1.0);
   tileSize = Math.floor(size / GRID);
   canvas.width = tileSize * GRID;
   canvas.height = tileSize * GRID;
