@@ -8,7 +8,7 @@ let tileSize, board = [], empty = {};
 let redirectSeconds = 3, countdownInterval;
 
 
-img.src = '../assets/sol3.jpg';
+img.src = '../assets/panel1.jpg';
 logoImg.src = '../assets/solar2.png';
 const moveSound = new Audio('../assets/move.mp3'); 
 
@@ -31,7 +31,7 @@ function startGame() {
 }
 
 function setupCanvasSize() {
-  const size = Math.min(window.innerWidth * 1.0, window.innerHeight * 1.0);
+  const size = Math.min(window.innerWidth * 0.8, window.innerHeight * 0.8);
   tileSize = Math.floor(size / GRID);
   canvas.width = tileSize * GRID;
   canvas.height = tileSize * GRID;
